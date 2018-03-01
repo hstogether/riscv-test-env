@@ -18,6 +18,12 @@
   RVTEST_FP_ENABLE;                                                     \
   .endm
 
+#define RVTEST_RV64UH                                                   \
+  .macro init;                                                          \
+  RVTEST_FP_ENABLE;                                                     \
+  .endm
+
+
 #define RVTEST_RV32U                                                    \
   .macro init;                                                          \
   .endm
